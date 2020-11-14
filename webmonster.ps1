@@ -1,5 +1,6 @@
-$A = "Jardsit.com"
-$wait = 600
+Add-Type -AssemblyName PresentationFramework
+$A = "jardsit.com"
+$wait = 6
 For ($i=0; $i -ge -1; $i++) {
     $x = 0
     $A | Foreach {
